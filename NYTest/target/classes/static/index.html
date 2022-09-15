@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Days till New Year</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</head>
+<body style="
+    text-align: center;
+">
+<h2>Хотите знать, сколько дней осталось до Нового года?</h2>
+<p>Выберите дату:</p>
+<label for="date"></label>
+<input type="date" id="date" placeholder="Date">
+<p><span id="text"></span></p>
+<button id="submit" style="
+    height: 30px;
+    width: 120px;
+    font-weight: 600;
+    background-color: ghostwhite;
+">Отправить</button>
+<br>
+<p>Дней до Нового года: <span id="days" style="
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: large;
+"></span></p>
+</body>
+</html>
